@@ -1,0 +1,27 @@
+.contactTitle {
+    color: white;
+    text-decoration: underline rgb(233, 81, 233);
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.form {
+    width: 35%;
+    /* border: solid rgb(233, 81, 233); */
+}
+
+.form label {
+    color: white;
+}
+
+.form input {
+    width: 32%;
+}
+
+.submit {
+    background-color: rgb(233, 81, 233);
+    border-color: white;
+    color: white;
+    margin-top: 2%;
+}

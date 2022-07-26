@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import '../style/Contact.css'
 
 function Contact() {
 
@@ -43,33 +44,37 @@ function Contact() {
 
     return (
         <>
-            <h2>Contact Me</h2>
+            <h1 className="contactTitle">Contact Me</h1>
             <form className="form" style={style.form}>
+                <label>Name:</label>
                 <input 
                     value={name}
                     name="name"
                     type="text"
-                    placeholder="Name"
+                    placeholder="John Doe"
                     onChange={inputChange}
                     style={style.input}
                 />
+                <label>Email:</label>
                 <input 
                     value={email}
                     name="email"
                     type="email"
-                    placeholder="Email"
+                    placeholder="john.doe@email.com"
                     onChange={inputChange}
                     style={style.input}
                 />
-                <input 
+                <label>Message:</label>
+                <textarea 
+                    rows={6}
                     value={message}
                     name="message"
-                    type="message"
-                    placeholder="Message"
+                    type="textarea"
+                    placeholder="Type your message here"
                     onChange={inputChange}
                     style={style.input}
                 />
-                <button type="button" onClick={handleSubmit}>
+                <button type="button" onClick={handleSubmit} className="submit">
                     Submit
                 </button>
             </form>

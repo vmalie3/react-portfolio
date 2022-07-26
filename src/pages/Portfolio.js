@@ -4,9 +4,9 @@ import "../style/Portfolio.css";
 function Portfolio() {
     return (
         <>
-            <h1>Portfolio</h1>
+            <h1 className="portfolioTitle">Portfolio</h1>
             <div className="row">
-                <div className="col-sm-4 border">
+                <div className="col-sm-4">
                     <div className="card">
                         <img className="card-img-top" src="../../images/bandTracker.png" alt="band tracker screenshot"/>
                         <a href="https://cokamuro.github.io/band-tracker/" className="btn btn-primary link" >Live Site</a>

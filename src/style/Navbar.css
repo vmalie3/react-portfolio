@@ -1,0 +1,29 @@
+header {
+    min-height: 30%;
+
+}
+
+.navbar {
+    background-color: white;
+    opacity: 85%;
+    min-height: 25%;
+}
+
+.navbar h1 {
+    color: rgb(233, 81, 233);
+    font-style: bolder;
+    margin-left: 4%;
+    white-space: nowrap;
+}
+
+.nav {
+
+}
+
+.nav-item {
+    text-decoration: underline darkcyan;
+    color: rgb(233, 81, 233);
+    font-weight: bolder;
+    padding: 1pt;
+    margin-right: 2%;
+}

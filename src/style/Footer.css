@@ -1,6 +1,7 @@
 .footer {
-    background-color: wheat;
-    opacity: 80%;
+    background-color: white;
+    opacity: 85%;
+    margin-top: 10%;
 }
 
 .footer a {
@@ -8,4 +9,5 @@
     font-style: bolder;
     padding: 2%;
     margin-left: 24%;
+    /* display: block; */
 }

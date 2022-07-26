@@ -1,21 +1,39 @@
-
-.card {
-    width: 100%;
-    max-height: 30%;
+.portfolioTitle {
+    color: white;
+    text-decoration: underline rgb(233, 81, 233);
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
+.card {
+    width: 80%;
+    height: 30%;
+    margin: 8%;
+}
+
+.card:hover {
+    width: 90%;
+    /* height: 50%; */
+    transform: translateY(-15px);
+}
+
+
 .card-img-top {
-    width: 100%;
+    width: 90%;
     height: 15vw;
     object-fit: cover;
 }
 
 .btn {
     border: solid darkcyan !important;
-    background-color: lightblue !important;
+    background-color: white !important;
+    opacity: 50% !important;
+    color: rgb(233, 81, 233) !important;
 }
 
-.border {
-    border: solid green;
+.btn:hover {
+    opacity: 100% !important;
 }
+
 
