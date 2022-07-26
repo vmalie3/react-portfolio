@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import '../style/home.css';
 import About from "../pages/About";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Portfolio from "../pages/Portfolio";
+import Contact from "../pages/Contact";
 
 function Home() {
 
@@ -20,7 +23,7 @@ function Home() {
         return (
             <>
                 <Navbar setPage={setPage} />
-                <h1>Contact</h1>
+                <Contact />
                 <Footer />
             </>
         );
@@ -29,7 +32,7 @@ function Home() {
         return (
             <>
                 <Navbar setPage={setPage} />
-                <h1>Portfolio</h1>
+                <Portfolio />
                 <Footer />
             </>
         );
