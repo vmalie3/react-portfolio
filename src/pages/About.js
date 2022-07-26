@@ -9,7 +9,7 @@ function About() {
                 <div className="col-4"></div>
                 <div className="col-4">
                     <img src="../../images/gradpicfaceresize.jpg" alt="Pic of Victoria at NCSU Graduation"></img>
-                    <p>Insert info about me here</p>
+                    <h4>I am an NC State University graduate with a bachelor's of science in business administration. I'm currently learning how to be a full-stack web developer through UNCC's coding bootcamp. I'm from Charlotte NC.</h4>
                 </div>
                 <div className="col-4"></div>
 

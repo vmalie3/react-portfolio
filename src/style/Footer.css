@@ -1,0 +1,11 @@
+.footer {
+    background-color: wheat;
+    opacity: 80%;
+}
+
+.footer a {
+    color: rgb(233, 81, 233);
+    font-style: bolder;
+    padding: 2%;
+    margin-left: 24%;
+}

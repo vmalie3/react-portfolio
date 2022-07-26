@@ -22,11 +22,6 @@ body {
     margin-right: 2%;
 }
 
-.footer {
-    color: white;
-    text-decoration: none;
-}
-
 .aboutDiv h1 {
     color: white;
     margin-left: 2%;
@@ -35,4 +30,21 @@ body {
 
 .aboutDiv {
     color: white;
+}
+
+.list {
+    color: white;
+    border: solid rgb(233, 81, 233);;
+}
+
+.resumeLink {
+    color: white;
+    text-decoration: underline rgb(233, 81, 233);
+}
+
+.resLink {
+    border: solid white;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(233, 81, 233);
 }

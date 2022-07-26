@@ -3,6 +3,7 @@ import '../style/home.css';
 import About from "../pages/About";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Resume from "../pages/Resume"
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 
@@ -41,7 +42,7 @@ function Home() {
         return (
             <>
                 <Navbar setPage={setPage} />
-                <h1>Resume</h1>
+                <Resume />
                 <Footer />
             </>
         );
