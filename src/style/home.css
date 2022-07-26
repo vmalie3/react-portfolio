@@ -1,11 +1,38 @@
-/* body {
-    background-color: darkcyan;
+body {
+    background-color: darkcyan !important;
+}
+
+.navbar {
+    background-color: lightblue;
+    opacity: 60%;
+    min-height: 25%;
+}
+
+.navbar h1 {
+    color: rgb(233, 81, 233);
+    font-style: bolder;
+    margin-left: 4%;
 }
 
 .nav-item {
-    text-decoration: none;
+    text-decoration: underline white;
+    color: rgb(233, 81, 233);
+    font-weight: bolder;
     padding: 1pt;
-    margin-right: 3%;
-} */
+    margin-right: 2%;
+}
 
+.footer {
+    color: white;
+    text-decoration: none;
+}
 
+.aboutDiv h1 {
+    color: white;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.aboutDiv {
+    color: white;
+}

@@ -7,7 +7,7 @@ function Navbar({ setPage }) {
             <div>
                 <h1>Victoria Malie</h1>
             </div>
-            <div className="">
+            <div className="nav">
                 <a href="#about" onClick={() => setPage('about')} className="nav-item">About Me</a>
                 <a href="#portfolio" onClick={() => setPage('portfolio')} className="nav-item">Portfolio</a>
                 <a href="#contact" onClick={() => setPage('contact')} className="nav-item">Contact Me</a>
