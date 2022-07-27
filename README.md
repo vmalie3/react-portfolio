@@ -19,9 +19,20 @@ I used a form structure based off bootstrap and previous activities to build my 
 I used CSS to do some styling, however I plan to improve upon the site's current CSS in the future (fixing the header layout, footer layout, and mobile compatibility).
 
 ## Visuals
-![React-Portfolio]()
+Portfolio:
+![React-Portfolio](./public/images/reactPort.png)
+
+Contact:
+![React-Portfolio Contact Page](./public/images/reactContact.png)
+
+About Me:
+![React-Portfolio About Me Page](./public/images/reactAbout.png)
+
+Resume:
+![React-Portfolio Resume Page](./public/images/reactRes.png)
+
 
 ## Resources
-[Live Site]()
+[Live Site](https://aqueous-beyond-13473.herokuapp.com/)
 
 [Repository](https://github.com/vmalie3/react-portfolio)
